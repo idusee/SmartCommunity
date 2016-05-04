@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zn-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>曲线报表</title>
+</head>
+<body>
+	
+	<div id="chart"></div>
+
+	
+	<div>
+		<input id="c" type="checkbox"> 1
+	</div>
+
+	<script src="libs/jquery-1.12.3.min.js"></script>
+	<script src="libs/highchart/highcharts.js"></script>
+	<script src="scripts/chart.js"></script>
+
+	<script>
+		var t=$('#c').next().val();
+		alert(t);
+	</script>
+</body>
+</html>
